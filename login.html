@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Login</title>
+</head>
+<!-- <style>
+    body{
+        background: url('./images/loginbg.jpg');
+    }
+</style> -->
+
+<body>
+    <!-- H E A D E R -->
+    <!-- Navigation -->
+
+    <div class="header">
+
+        <div class="logo">
+            <h2><span class="M">M</span><span class="T">T</span>ravels</h2>
+        </div>
+
+        <input type="checkbox" id="click" class="click">
+        <label for="click" class="icon">
+            <i class="fas fa-bars hamburger"></i>
+        </label>
+
+        <div class="menus">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="./index.html#package">Packages</a>
+                </li>
+
+
+                <li>
+                    <a href="bookings.html">Bookings</a>
+                </li>
+
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">SignUp</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <!-- LOGIN  -->
+    <section class="section">
+        <div class="box" data-aos="flip-right">
+        <div class="form" >
+            <h2>
+                Login
+            </h2>
+            <form>
+                <div class="inputbx">
+                    <input type="text" placeholder="Username">
+                 <img src="./images/profile.png" alt="">
+                </div>
+                <div class="inputbx">
+                    <input type="password" placeholder="Password">
+                    <img src="./images/lock.png" alt="">
+                </div>
+                <label class="remember">
+                    <input type="checkbox"> Remember Me
+                </label>
+                <br> <br>
+                <div class="inputbx">
+                    <input onclick="login()" type="submit" value="Login">
+                </div>
+            </form>
+            
+            <p>Forget <a href="#">Password?</a>
+            &nbsp;
+                Create an &nbsp;<a href="signup.html">Account</a></p>
+            <!-- <p>Create an <a href="signup.html">Account</a></p> -->
+ 
+        </div>
+        </div>
+    </section>
+    
+    <!--F O O T E R -->
+    <div class="footer">
+
+        <div class="f1">
+            <h2 style="letter-spacing: 2px;">MTravels Offices</h2>
+            <br>
+            <h4 class="fhed">Lahore Office</h4>
+            <p>Suite 29, First Floor, Al Latif Center, 88/D-1, Main Boulevard, Gulberg III, Lahore.</p>
+            <br>
+            <h4 class="fhed">Islamabad Office</h4>
+            <p>10, Ground Floor, Muhammadi Plaza D.Chowk, Jinnah Avenue, Blue Area, Islamabad.</p>
+            <br>
+            <h4 class="fhed">Hunza Office</h4>
+            <p>Adjacent to N.B.P, Zero point, Karimabad Hunza</p>
+
+        </div>
+        <div class="fline">
+
+        </div>
+
+        <div class="f2">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">SignUp</a></li>
+            </ul>
+        </div>
+        <div class="fline">
+
+        </div>
+        <div class="f3">
+            <h2>Support & Contact</h2>
+            <ul>
+                <li><a href="#"><i class="far fa-phone-alt">&nbsp;&nbsp;0333-3397546</i></a></li>
+                <li><a href="#"><i class="far fa-phone-alt">&nbsp;&nbsp;0333-3354654</i></a></li>
+                <li><a href="#"><i class="far fa-phone-alt">&nbsp;&nbsp;0333-3397546</i></a></li>
+                <br>
+                <li>
+                    <h3>Emil</h3>
+                </li>
+                <li><a href="#"><i class="fal fa-envelope-open">&nbsp;&nbsp;mtravels@gmil.com</i></a></li>
+
+            </ul>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="footer2">
+        <p>© 2021 MTravels. All Rights Reserved.</p>
+        <p>
+            Developed by: Mahnoor Asim
+        </p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
+
+</body>
+<script src="app.js"></script>
+
+</html>
